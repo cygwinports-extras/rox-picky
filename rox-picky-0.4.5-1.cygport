@@ -1,0 +1,14 @@
+ORIG_PN="Picky"
+inherit rox
+
+HOMEPAGE="http://www.rdsarts.com/code/picky/"
+SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tar.bz2"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
+
+src_compile() {
+	mkdir -p ${B}/${ORIG_PN}
+	cd ${B}/${ORIG_PN}
+	lndirs ${S}
+}

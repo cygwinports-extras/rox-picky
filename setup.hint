@@ -1,0 +1,10 @@
+category: ROX
+requires: python python-gobject2.0 python-gtk2.0 rox-lib2
+sdesc: "ROX image viewer"
+ldesc: "ROX is a fast, user friendly desktop based on RISC OS which 
+makes extensive use of drag-and-drop. The interface revolves around the 
+file manager, or filer, following the traditional Unix view that 
+`everything is a file' rather than trying to hide the filesystem beneath 
+start menus, wizards, or druids.
+
+This package provides an image viewer."

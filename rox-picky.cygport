@@ -1,6 +1,11 @@
 ORIG_PN="Picky"
 inherit rox
 
+NAME="rox-picky"
+VERSION=0.4.5
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX image viewer"
 HOMEPAGE="http://www.rdsarts.com/code/picky/"
 SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tar.bz2"
 SRC_DIR=.
